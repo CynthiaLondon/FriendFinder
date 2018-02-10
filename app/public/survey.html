@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src=https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js></script>
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    <h3>Questions</h3>
+    <hr>
+    <h4><strong>About you</strong></h4>
+    <h4>Name*</h4>
+    <input type="text" name="" id="name" class="form-control" required >
+
+    <h4>Link to Photo Image*</h4>
+    <input type="text" name="" id="photo" class="form-control" required >
+
+    <hr>
+    <h4><strong>Question One</strong></h4>
+    <h5>You feel at ease in a crowds.</h5>
+    <select data-placeholder="" class="chosen-select" id="a1">
+      <option value=""></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly agree)</option>
+    </select>
+
+    <h4><strong>Question Two</strong></h4>
+    <h5>You usually place yourself nearer to the side than in the center of the room.</h5>
+    <select data-placeholder="" class="chosen-select" id="a2">
+      <option value=""></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly agree)</option>
+    </select>
+
+
+    <h4><strong>Question Three</strong></h4>
+    <h5>You prefer to spend your leisure time alone or relaxing in a tranquil atmosphere.</h5>
+    <select data-placeholder="" class="chosen-select" id="a3">
+      <option value=""></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly agree)</option>
+    </select>
+
+
+    <h4><strong>Question Four</strong></h>
+    <h5>Often you prefer to read a book than go to a party.</h5>
+    <select data-placeholder="" class="chosen-select" id="a4">
+      <option value=""></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly agree)</option>
+    </select>
+
+
+    <h4><strong>Question Five</strong></h4>
+    <h5> The more people you speak to, the better you feel.</h5>
+    <select data-placeholder="" class="chosen-select" id="a5">
+      <option value=""></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly agree)</option>
+    </select>
+
+
+    <h4><strong>Question Six</strong></h4>
+    <h5>You often think about humankind and its destiny.</h5>
+    <select data-placeholder="" class="chosen-select" id="a6">
+      <option value=""></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly agree)</option>
+    </select>
+
+
+    <h4><strong>Question Seven</strong></h4>
+    <h5>You do not seek to feel superior to others.</h5>
+    <select data-placeholder="" class="chosen-select" id="a7">
+      <option value=""></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly agree)</option>
+    </select>
+
+    <h4><strong>Question Eight</strong></h4>
+    <h5>You have an excellent credit score.</h5>
+    <select data-placeholder="" class="chosen-select" id="a8">
+      <option value=""></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly agree)</option>
+    </select>
+
+    <h4><strong>Question Nine</strong></h4>
+    <h5>You are almost never late for your appointments</h5>
+    <select data-placeholder="" class="chosen-select" id="a9">
+      <option value=""></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly agree)</option>
+    </select>
+
+    <h4><strong>Question Ten</strong></h4>
+    <h5>You enjoy having a wide circle of acquaintances</h5>
+    <select data-placeholder="" class="chosen-select" id="a10">
+      <option value=""></option>
+      <option value="1">1 (Strongly disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly agree)</option>
+    </select>
+
+    <br>
+    <br>
+    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+     Submit</button>
+
+     <hr>
+     <footer class="footer">
+      <div class="container">
+        
+    </footer>
+
+  </div>
+
+  <div id="resultsModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title"><strong>Best Match</strong></h2>
+        </div>
+        <div class="modal-body">
+          <h2 id="matchName"></h2>
+          <img id="matchImg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+
+    var config = {
+      ".chosen-select": {},
+      ".chosen-select-deselect": { allow_single_deselect: true },
+      ".chosen-select-no-single": { disable_search_threshold: 10 },
+      ".chosen-select-no-results": { no_results_text: "Oops, nothing found!" },
+      ".chosen-select-width": { width: "95%" }
+    };
+
+    for (var selector in config) {
+      $(selector).chosen(config[selector]);
+    }
+
+   
+    $("#submit").on("click", function() {
+
+      function validateForm() {
+        var isValid = true;
+        $(".form-control").each(function() {
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+
+        $(".chosen-select").each(function() {
+
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+        return isValid;
+      }
+
+
+      if (validateForm()) {
+
+        var userData = {
+          name: $("#name").val(),
+          photo: $("#photo").val(),
+          scores: [
+            $("#a1").val(),
+            $("#a2").val(),
+            $("#a3").val(),
+            $("#a4").val(),
+            $("#a5").val(),
+            $("#a6").val(),
+            $("#a7").val(),
+            $("#a8").val(),
+            $("#a9").val(),
+            $("#a10").val()
+          ]
+        };
+        var currentURL = window.location.origin;
+        $.post(currentURL + "/api/friends", userData, function(data) {
+          $("#matchName").text(data.name);
+          $("#matchImg").attr("src", data.photo);
+          $("#resultsModal").modal("toggle");
+
+        });
+      }
+      else {
+        alert("Please complete all fields before submit!");
+      }
+
+      return false;
+    });
+  </script>
+</body>
+</html>
